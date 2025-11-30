@@ -1,0 +1,14 @@
+apiVersion: anywhere.eks.amazonaws.com/v1alpha1
+kind: Cluster
+metadata:
+  name: dev
+spec:
+  clusterNetwork:
+    cni: cilium
+    pods:
+      cidrBlocks: ["192.168.0.0/16"]
+  controlPlaneConfiguration:
+    count: 1
+  workerNodeGroupConfigurations:
+  - count: 1
+
