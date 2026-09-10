@@ -1,0 +1,8 @@
+eksctl-anywhere-version: 0.18.2
+eksctl-version: 0.182.0
+kubectl-version: v1.29.0
+ova-file: ubuntu-v1.29.0-kvm.ova
+ova-sha256: e13c5f2d79df98242c87d2f6282e34b8b81fae521...
+kubernetes-version: v1.29.0
+cilium-version: 1.15.3
+

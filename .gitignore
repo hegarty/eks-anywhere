@@ -1,0 +1,18 @@
+# Local binaries
+bin/eksctl
+bin/eksctl-anywhere
+bin/kubectl
+
+# VM images
+*.ova
+ova/
+
+# Logs
+logs/
+
+# MacOS junk
+.DS_Store
+
+# Lock files generated locally
+*.lock.hcl
+
